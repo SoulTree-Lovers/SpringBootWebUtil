@@ -14,7 +14,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(openApiInterceptor) // add한 인터셉터 순서대로 인터셉터가 실행 됨. (또는 order()를 통해 우선순위를 부여할 수 있음)
-                .addPathPatterns("/**"); // interceptor를 매핑할 주소 (여기선 모든 경로에 매핑)
+//        registry.addInterceptor(openApiInterceptor) // add한 인터셉터 순서대로 인터셉터가 실행 됨. (또는 order()를 통해 우선순위를 부여할 수 있음)
+//                .addPathPatterns("/**"); // interceptor를 매핑할 주소 (여기선 모든 경로에 매핑)
     }
 }
